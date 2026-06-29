@@ -2,14 +2,12 @@
 *.jar
 *.war
 
-.mvn/
-!**/mvn/wrapper/**
-
 *.class
 *.log
 *.ctxt
 *.jar
 *.war
+!.mvn/wrapper/maven-wrapper.jar
 *.ear
 *.iml
 .vscode/
