@@ -1,0 +1,13 @@
+version: "1.0"
+
+profile:
+  name: qodana.starter
+
+projectJDK: "21"
+
+linter: jetbrains/qodana-jvm-community:2026.1
+
+failureConditions:
+  severityThresholds:
+    critical: 1
+    high: 10
